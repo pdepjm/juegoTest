@@ -1,0 +1,18 @@
+import wollok.game.*
+import objects.*
+program mazeGame {
+	
+	game.height(100)
+	game.width(100)
+	game.cellSize(100)
+	
+	game.addVisual(player)
+	game.addVisual(surface)
+	environment.configureObject()
+	
+
+    game.start()
+	
+
+} 
+
